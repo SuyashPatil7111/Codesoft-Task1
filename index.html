@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container{
+            border: 2px solid black;
+            height: 590px;
+            margin:3px;
+            padding: 3px;
+
+        }
+
+        .container_between{
+            padding: 3px;
+            margin: 3px;
+        }
+
+        .container1{
+            border: 2px solid black;
+            height: 80px;
+            background-color: #068fff;  
+           
+            color: #000000;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: right; */
+            justify-content: space-evenly;
+            -ms-flex-align: end;
+           
+        }
+
+      
+        .box1:hover{
+        font-size: large;
+        color:red;
+       }
+       
+       .box2:hover{
+        font-size: large;
+       }
+
+       .box3:hover{
+        font-size: large;
+       }
+    
+       .box4:hover{
+        font-size: large;
+       }
+
+    
+        .containerTwoThree{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #image{
+            position: relative;
+            left:35%;
+            top: 65px;
+            border-radius:100%;
+            box-shadow: 10px -2px #319ae9; 
+        }
+
+        .container2{
+            
+            position: relative;
+            display: flex;
+            flex-direction: column;
+             
+        }
+
+        .box5{
+            position: relative;
+            left: 20%;
+            top: 98px
+        }
+
+        #shadow{
+            text-shadow: -1px -1px #8e92f7 ;
+        }
+
+        
+
+        #p4{
+            
+            position: relative;
+            top: 65px;
+            color: #4E4FEB;
+        }
+
+        #Animations{
+           
+            animation-name: slidein;
+            animation-duration: 3s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        @keyframes slidein {
+            from {
+              margin-left: 75%;
+              width: 300%;
+            }
+
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }  
+        }
+
+        .container4{
+            
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+           justify-content: space-evenly;
+        
+        }
+
+        #image1{
+           
+            position: relative;
+            top: 32px;
+            left: 360px;  
+        }
+
+       
+        
+        #image2{
+
+            position: relative;
+            top: 16px;
+            left: 1px ;
+
+        }
+
+        #image3{
+            position: relative;
+            left:-200px;
+            top: 15px;
+        }
+
+        #image4{
+            position: relative;
+            top: 15px;
+            left: -360px;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="container_between">
+            
+    <div class="container1">
+        <div class="box1">
+            <a href="myportfolio.html"><h2>Home</h2></a>
+        </div>
+
+        <div class="box2">
+            <a href="home.html"><h2>About</h2></a>
+        </div>
+
+        <div class="box3">
+            <a href="Education.html"><h2>Education</h2></a>
+        </div>
+
+        <div class="box4">
+            <a href="contact.html"><h2>Contact</h2></a>
+        </div>
+    </div>
+    <div class="containerTwoThree">
+    <div class="container2">
+        <p1 class="box5"> <h2>Hey There, </h2></p1>
+        <p2 class="box5" id="shadow"><h1> I'am Suyash Patil </h1> </p2>
+        <p3 class="box5"><h2> and I' am  </h2></p3>
+        <p4 class="box5" id="p4"><pre><h1 id="Animations">         Computer Engineering Student🧑‍💻 and </h1></pre></p4>
+        <p4 class="box5" id="p4"><pre><h1 id="Animations">         Web Developer...</h1></pre></p4>
+    </div>
+            
+
+    <div class="container3">
+        <img src="https://cdn.sharechat.com/ca92d88_1595695675371.jpeg?f=ca92d88_1595695675371.jpeg&referrer=tag-f5e-service&tenant=sc" id="image" height="400px" width="400px"></a>
+    </div>
+    </div>
+        </div>
+        <div class="container4">
+
+           
+
+            <div class="box6">
+                <a href="https://instagram.com/suyashpatil7111?igshid=MzNlNGNkZWQ4Mg==">
+                    <img src="Instagram.png" id="image1" alt="Instagram" height="28px" width="28px">
+                </a>
+            </div>
+    
+            <div class="box7">
+                <a href="https://www.linkedin.com/in/suyash-patil-138668229">
+                    <img src="LinkedIn.png" id="image2" alt="LinkedIn" height="55px" width="55px">
+                </a>
+            </div>
+    
+            <div class="box8">
+                <a href="#">
+                    <img src="Telegram.png" id="image3" alt="Telegram" height="60px" width="60px">
+                </a>
+            </div>
+
+            <div class="box9">
+                <a href="#">
+                    <img src="facebook.png" id="image4" alt="facebook" height="69px" width="69px">
+                </a>
+            </div>
+    
+        </div>
+
+
+    </div>
+
+</body>
+</html>
